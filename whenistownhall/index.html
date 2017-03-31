@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crew Countdown</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400|Roboto+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="page" class="Page">
+    <div id="header" class="Header" contenteditable>Town Hall Begins in:</div>
+    <div id="countdown" class="Countdown">00:00:00</div>
+
+    <div id="footer" class="Footer">
+      <button class="Footer-helpButton">
+        <img src="./assets/images/settings.svg" alt="Gear icon" title="Settings">
+      </button>
+      <button class="Footer-helpButton">
+        <img src="./assets/images/help.svg" alt="Question mark icon" title="Help!">
+      </button>
+    </div>
+
+    <!-- <div id="settings" class="Settings">
+      <form action="">
+        <input type="date">
+        <input type="time">
+      </form>
+    </div> -->
+  </div>
+
+  <div id="backdrop" class="Backdrop">
+    <svg class="Backdrop-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 36">
+      <path d="M27.45.694l2.937 3.96L47.84.664"/><path d="M11.01 35.65l9.296-9.184-5.6-6.068"/><path d="M26.77.707L21.8 4.344l7.974.413"/><path d="M19.152 4.22L8.262.05l1.654 3.71"/><path d="M20.626 4.84L.05 3.783l13.504 14.554"/><path d="M13.942 18.773l6.753 7.314 7.253-7.172L30.24 5.32l-9.012-.45"/>
+    </svg>
+  </div>
+
+  <script src="./node_modules/animejs/anime.js"></script>
+  <script src="./node_modules/keyboardjs/dist/keyboard.js"></script>
+  <script src="./node_modules/moment/moment.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>

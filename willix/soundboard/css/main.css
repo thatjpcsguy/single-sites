@@ -1,0 +1,79 @@
+html {
+	background-color: #333;
+	background-image: url(../img/bg.png);
+	background-size: 300px;
+}
+
+body {
+	background-color: transparent;
+	padding-bottom: 360px;
+}
+
+h1 {
+	color: rgba(255, 255, 255, .4);
+	margin: 100px 0 50px;
+	font-size: 5em;
+}
+
+h2 {
+	color: #fff;
+	font-size: 2em;
+}
+
+.sound-list {
+	text-align: center;
+}
+
+.sound-list li {
+	display: inline-block;
+	list-style: none;
+	margin: 1.2em;
+}
+
+.sound-list li a {
+	background: rgba(255, 255, 255, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	padding: .6em 1.2em;
+	border-radius: 3px;	
+	font-size: 1.5em;
+	color: #fff;
+	text-decoration: none !important;
+	word-break: keep-all;
+}
+
+.sound-list li a:hover {
+	background: rgba(255, 255, 255, 0.9);
+	border-color: #fff;
+	color: #333;
+}
+
+.floating-video-container {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+.video {
+	background: #222;
+	height: 300px;
+	width: 507px; /* 1.69 ratio */
+
+	border-radius: 5px;
+	position: relative;
+	/*overflow: hidden;*/
+}
+
+.video video {
+	height: 300px;
+	width: 507px; /* 1.69 ratio */
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+@media(max-width: 768px) {
+	.video {
+		position: static;
+		max-width: 100%;
+	}
+}

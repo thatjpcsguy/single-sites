@@ -1,0 +1,18 @@
+{
+  "name": "crew-countdown",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Crew countdowns.",
+  "main": "main.js",
+  "dependencies": {
+    "animejs": "^1.1.0",
+    "keyboardjs": "^2.3.1",
+    "moment": "^2.14.1",
+    "normalize.css": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steven Sinatra <ssinatra@freelancer.com>"
+}
